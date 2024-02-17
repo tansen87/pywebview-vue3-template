@@ -37,7 +37,7 @@ pnpm run pre
 <br/>
 
 <p align="center">
-  <a href="https://github.com/tansen87">
+  <a href="https://github.com/tansen87/pywebview-vue3-template">
     <img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/>
   </a>
 </p>
