@@ -1,0 +1,21 @@
+{
+  "name": "pywebview-toolkit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "基于 Vue3 + Element-Plus 的前端应用",
+  "author": "tansen",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "element-plus": "^2.3.4",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.0",
+    "sass": "^1.62.0",
+    "vite": "^4.3.1"
+  }
+}
