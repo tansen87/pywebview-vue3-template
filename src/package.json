@@ -2,15 +2,15 @@
   "name": "pywebview-toolkit",
   "private": true,
   "version": "1.0.0",
-  "description": "基于 Vue3 + Element-Plus 的前端应用",
+  "description": "基于 Vue3 + Quasar 的前端应用",
   "author": "tansen",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "@element-plus/icons-vue": "^2.1.0",
-    "element-plus": "^2.3.4",
+    "@quasar/extras": "^1.16.11",
+    "quasar": "^2.15.2",
     "vue": "^3.2.47"
   },
   "devDependencies": {
