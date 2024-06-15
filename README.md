@@ -1,3 +1,7 @@
+# pywebview vue3 template
+
+> Quickly building Python desktop applications
+
 ### 运行环境
 - Node.js 16.14+
 - pnpm 8.x+
