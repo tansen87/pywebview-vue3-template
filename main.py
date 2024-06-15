@@ -10,7 +10,7 @@ import argparse
 
 import webview
 
-from api.api import API
+from src_py.api.api import API
 from src_py.config.config import Config
 
 

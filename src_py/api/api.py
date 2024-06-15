@@ -5,7 +5,7 @@ Description: 业务层API,供前端JS调用
 usage: 在Javascript中调用window.pywebview.api.<methodname>(<parameters>)
 '''
 
-from api.system import System
+from src_py.api.system import System
 
 
 class API(System):
