@@ -16,5 +16,4 @@ src_py/spec/*
 *.njsproj
 *.sln
 *.sw?
-/api/__pycache__/
-/src_py/config/__pycache__/
+**/*__pycache__/
