@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 '''
 Description: 生成客户端主程序
 usage: 运行前,请确保本机已经搭建Python3开发环境,且已经安装 pywebview 模块。
@@ -7,6 +5,7 @@ usage: 运行前,请确保本机已经搭建Python3开发环境,且已经安装 
 import os
 import sys
 import argparse
+import mimetypes
 
 import webview
 
@@ -42,6 +41,8 @@ def WebViewApp(ifCef=False):
         # 生产环境
         MAIN_DIR = os.path.join(".", "web")
         template = os.path.join(MAIN_DIR, "index.html")    # 设置页面,指向本地
+
+    mimetypes.add_type('application/javascript', '.js')
 
     # 系统分辨率
     screens = webview.screens
