@@ -1,16 +1,18 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from 'vue'
+import App from './App.vue'
 
-import { Quasar, Notify } from "quasar";
-import "@quasar/extras/material-icons/material-icons.css";
+const app = createApp(App)
 
-import "quasar/dist/quasar.css";
+// 组件库 ElementPlus
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import 'element-plus/theme-chalk/dark/css-vars.css' // 暗黑模式
+app.use(ElementPlus)
 
-const app = createApp(App);
+// 图标库 ElementPlus
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+  app.component(`ele-${key}`, component)
+}
 
-app.use(Quasar, {
-  plugins: {
-    Notify
-  }
-})
-app.mount("#app");
+app.mount('#app')
