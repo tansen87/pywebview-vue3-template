@@ -1,0 +1,6 @@
+# browserslist配置主要有以下两个作用
+# 1. vite legacy插件为js提供polyfill
+# 2. postcss autoprefixer插件为css提供prefix
+
+[production]
+last 2 versions and not dead, > 0.3%, Firefox ESR

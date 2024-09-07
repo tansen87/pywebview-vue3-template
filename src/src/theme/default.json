@@ -1,0 +1,252 @@
+{
+  "color": {
+    "blue": {
+      "1": {
+        "value": "#E8F3FF"
+      },
+      "2": {
+        "value": "#BEDAFF"
+      },
+      "3": {
+        "value": "#94BFFF"
+      },
+      "4": {
+        "value": "#6AA1FF"
+      },
+      "5": {
+        "value": "#4080FF"
+      },
+      "6": {
+        "value": "#165DFF"
+      },
+      "7": {
+        "value": "#0E42D2"
+      },
+      "8": {
+        "value": "#072CA6"
+      },
+      "9": {
+        "value": "#031A79"
+      },
+      "10": {
+        "value": "#000D4D"
+      }
+    },
+    "orange": {
+      "1": {
+        "value": "#FFF7E8"
+      },
+      "2": {
+        "value": "#FFE4BA"
+      },
+      "3": {
+        "value": "#FFCF8B"
+      },
+      "4": {
+        "value": "#FFB65D"
+      },
+      "5": {
+        "value": "#FF9A2E"
+      },
+      "6": {
+        "value": "#FF7D00"
+      },
+      "7": {
+        "value": "#D25F00"
+      },
+      "8": {
+        "value": "#A64500"
+      },
+      "9": {
+        "value": "#792E00"
+      },
+      "10": {
+        "value": "#4D1B00"
+      }
+    },
+    "green": {
+      "1": {
+        "value": "#E8FFEA"
+      },
+      "2": {
+        "value": "#AFF0B5"
+      },
+      "3": {
+        "value": "#7BE188"
+      },
+      "4": {
+        "value": "#4CD263"
+      },
+      "5": {
+        "value": "#23C343"
+      },
+      "6": {
+        "value": "#00B42A"
+      },
+      "7": {
+        "value": "#009A29"
+      },
+      "8": {
+        "value": "#008026"
+      },
+      "9": {
+        "value": "#006622"
+      },
+      "10": {
+        "value": "#004D1C"
+      }
+    },
+    "red": {
+      "1": {
+        "value": "#FFECE8"
+      },
+      "2": {
+        "value": "#FDCDC5"
+      },
+      "3": {
+        "value": "#FBACA3"
+      },
+      "4": {
+        "value": "#F98981"
+      },
+      "5": {
+        "value": "#F76560"
+      },
+      "6": {
+        "value": "#F53F3F"
+      },
+      "7": {
+        "value": "#CB272D"
+      },
+      "8": {
+        "value": "#A1151E"
+      },
+      "9": {
+        "value": "#770813"
+      },
+      "10": {
+        "value": "#4D000A"
+      }
+    },
+    "gray": {
+      "1": {
+        "value": "#F7F8FA"
+      },
+      "2": {
+        "value": "#F2F3F5"
+      },
+      "3": {
+        "value": "#E5E6EB"
+      },
+      "4": {
+        "value": "#C9CDD4"
+      },
+      "5": {
+        "value": "#A9AEB8"
+      },
+      "6": {
+        "value": "#86909C"
+      },
+      "7": {
+        "value": "#6B7785"
+      },
+      "8": {
+        "value": "#4E5969"
+      },
+      "9": {
+        "value": "#272E3B"
+      },
+      "10": {
+        "value": "#1D2129"
+      }
+    },
+    "pink": {
+      "1": {
+        "value": "#FFE8F1"
+      },
+      "2": {
+        "value": "#FDC2DB"
+      },
+      "3": {
+        "value": "#FB9DC7"
+      },
+      "4": {
+        "value": "#F979B7"
+      },
+      "5": {
+        "value": "#F754A8"
+      },
+      "6": {
+        "value": "#F5319D"
+      },
+      "7": {
+        "value": "#CB1E83"
+      },
+      "8": {
+        "value": "#A11069"
+      },
+      "9": {
+        "value": "#77064F"
+      },
+      "10": {
+        "value": "#4D0034"
+      }
+    },
+    "cyan": {
+      "1": {
+        "value": "#E8FFFB"
+      },
+      "2": {
+        "value": "#B7F4EC"
+      },
+      "3": {
+        "value": "#89E9E0"
+      },
+      "4": {
+        "value": "#5EDFD6"
+      },
+      "5": {
+        "value": "#37D4CF"
+      },
+      "6": {
+        "value": "#14C9C9"
+      },
+      "7": {
+        "value": "#0DA5AA"
+      },
+      "8": {
+        "value": "#07828B"
+      },
+      "9": {
+        "value": "#03616C"
+      },
+      "10": {
+        "value": "#00424D"
+      }
+    },
+    "b": {
+      "primary": {
+        " ": {
+          "value": "{color.blue.6}"          
+        },
+        "hover": {
+          "value": "{color.blue.5}"
+        },
+        "active": {
+          "value": "{color.blue.7}"
+        },
+        "disabled": {
+          "value": "{color.blue.3}"
+        },
+        "background": {
+          "value": "{color.blue.1}"
+        }
+      }
+    },
+    "bg": {
+      "normal": {
+        "value": "#FFFFFF"
+      }
+    }
+  }
+}

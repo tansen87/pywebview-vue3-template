@@ -1,0 +1,78 @@
+/* 此文件用于覆盖element-plus的主题 */
+
+:root,
+html.dark {
+  /* 主题色 */
+  --el-color-primary: theme('colors.b-primary.DEFAULT');
+  --el-color-success: theme('colors.b-success.DEFAULT');
+  --el-color-warning: theme('colors.b-warn.DEFAULT');
+  --el-color-danger: theme('colors.b-danger.DEFAULT');
+
+  /* 文字色 */
+  --el-text-color-primary: theme('textColor.primary');
+  --el-text-color-regular: theme('textColor.regular');
+  --el-text-color-secondary: theme('textColor.secondary');
+  --el-text-color-disabled: theme('textColor.disabled');
+  --el-text-color-placeholder: theme('colors.gray.400');
+
+  /* 边框色 */
+  --el-border-color-light: theme('borderColor.light');
+  --el-border-color: theme('borderColor.regular');
+  --el-border-color-dark: theme('borderColor.dark');
+  --el-border-color-darker: theme('borderColor.darker');
+
+  /* 圆角大小 */
+  --el-border-radius-base: theme('borderRadius.xs');
+  --el-border-radius-small: theme('borderRadius.sm');
+  --el-border-radius-round: theme('borderRadius.md');
+
+  /* 字体大小 */
+  --el-font-size-extra-small: theme('fontSize.sm');
+  --el-font-size-small: theme('fontSize.msm');
+  --el-font-size-base: theme('fontSize.base');
+  --el-font-size-medium: theme('fontSize.h6');
+  --el-font-size-large: theme('fontSize.h5');
+  --el-font-size-extra-large: theme('fontSize.h4');
+}
+
+.el-button {
+  &--primary {
+    --el-button-hover-bg-color: theme('colors.b-primary.hover');
+    --el-button-active-bg-color: theme('colors.b-primary.active');
+    --el-button-hover-border-color: theme('colors.b-primary.hover');
+    --el-button-active-border-color: theme('colors.b-primary.active');
+  }
+
+  &--success {
+    --el-button-hover-bg-color: theme('colors.b-success.hover');
+    --el-button-active-bg-color: theme('colors.b-success.active');
+    --el-button-hover-border-color: theme('colors.b-success.hover');
+    --el-button-active-border-color: theme('colors.b-success.active');
+  }
+
+  &--warning {
+    --el-button-hover-bg-color: theme('colors.b-warn.hover');
+    --el-button-active-bg-color: theme('colors.b-warn.active');
+    --el-button-hover-border-color: theme('colors.b-warn.hover');
+    --el-button-active-border-color: theme('colors.b-warn.active');
+  }
+  &--danger {
+    --el-button-hover-bg-color: theme('colors.b-danger.hover');
+    --el-button-active-bg-color: theme('colors.b-danger.active');
+    --el-button-hover-border-color: theme('colors.b-danger.hover');
+    --el-button-active-border-color: theme('colors.b-danger.active');
+  }
+}
+
+.el-link {
+  .el-link&--primary {
+    --el-link-hover-text-color: theme('colors.b-primary.hover');
+    --el-link-active-text-color: theme('colors.b-primary.active');
+  }
+}
+
+.el-drawer {
+  &__header {
+    @apply px-4 py-3 mb-0 border-b border-b-gray-300 text-primary text-base;
+  }
+}

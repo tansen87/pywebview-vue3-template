@@ -1,0 +1,11 @@
+#nprogress .bar {
+  @apply bg-b-primary;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px theme('colors.b-primary.DEFAULT'), 0 0 5px theme('colors.b-primary.DEFAULT');
+}
+
+#nprogress .spinner-icon {
+  @apply border-t-b-primary border-l-b-primary;
+}

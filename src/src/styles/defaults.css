@@ -1,0 +1,31 @@
+h1 {
+  @apply text-h1;
+}
+h2 {
+  @apply text-h2;
+}
+h3 {
+  @apply text-h3;
+}
+h4 {
+  @apply text-h4;
+}
+h5 {
+  @apply text-h5;
+}
+h6 {
+  @apply text-h6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply my-0;
+}
+
+a {
+  @apply text-b-primary hover:text-b-primary-hover active:text-b-primary-active cursor-pointer;
+}
