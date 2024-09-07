@@ -11,7 +11,7 @@
     <!-- 右侧 -->
     <div class="flex-1 w-0 flex items-center">
       <div class="w-[450px] mx-auto relative -top-20 p-8 bg-normal">
-        <div class="text-h5 font-semibold">登录{{ appName }}</div>
+        <div class="text-h5 font-semibold">登录</div>
         <div class="mt-6">
           <el-form ref="formIns" :model="form" :rules="rules" size="large" label-position="top" label-width="120px" label-suffix="：">
             <el-form-item label="用户名" prop="username">
