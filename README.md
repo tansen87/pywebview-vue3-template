@@ -1,4 +1,4 @@
-# pywebview vue3 template
+# pywebview-vue-template
 
 > Quickly building Python desktop applications
 
@@ -8,9 +8,9 @@
 - Python3.8-3.11
 
 ### 截图
-![image](https://github.com/tansen87/pywebview-vue3-template/assets/98570790/bd986652-adf7-4843-907d-5ac066488406)
+![login](/demo/login.png)
 
-![image](https://github.com/tansen87/pywebview-vue3-template/assets/98570790/c2e305bd-9bec-423b-9f97-f74754507fa1)
+![homepage](/demo/homepage.png)
 
 ### 初始化
 ```shell
@@ -36,3 +36,4 @@ pnpm run build:folder
 
 ### 致谢
 [PPX](https://github.com/pangao1990/PPX)
+[vue-relaxed-admin](https://github.com/shoppingzh/vue-relaxed-admin)
