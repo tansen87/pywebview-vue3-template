@@ -11,9 +11,9 @@ interface LoginData {
 }
 export async function login(data: LoginData) {
   Cookies.set('session-user', JSON.stringify(data))
-  await new Promise(resolve => {
-    setTimeout(resolve, 500)
-  })
+  // await new Promise(resolve => {
+  //   setTimeout(resolve, 0)
+  // })
   return data
 }
 
