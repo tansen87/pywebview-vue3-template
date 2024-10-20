@@ -1,4 +1,4 @@
-import router, { addRoutes } from '@/router'
+import router, { addRoutes, } from '@/router'
 import Layout from '../layout/index.vue'
 
 addRoutes(router, [{
@@ -22,22 +22,8 @@ addRoutes(router, [{
       component: () => import('@p-index/views/datetime/index.vue'),
     },
     {
-      path: 'ui',
-      component: () => import('@p-index/views/ui/index.vue'),
-    },
-    {
       path: 'table',
       component: () => import('@p-index/views/table/index.vue'),
-    },
-    {
-      path: 'error',
-      redirect: '/error/404',
-      children: [
-        {
-          path: '404',
-          component: () => import('@p-index/views/error/404.vue'),
-        },
-      ],
     },
     {
       path: ':paths(.*)*',
