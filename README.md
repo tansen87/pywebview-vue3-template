@@ -2,17 +2,15 @@
 
 > Quickly building Python desktop applications
 
-### 运行环境
-- Node.js 16.14+
+### Operating environment
+- Node.js 18+
 - pnpm 8.x+
 - Python3.8-3.11
 
-### 截图
-![login](/demo/login.png)
-
+### screenshot
 ![homepage](/demo/homepage.png)
 
-### 初始化
+### install
 ```shell
 pnpm run init
 ```
@@ -34,6 +32,11 @@ pnpm run pre
 pnpm run build:folder
 ```
 
-### 致谢
-[PPX](https://github.com/pangao1990/PPX)
-[vue-relaxed-admin](https://github.com/shoppingzh/vue-relaxed-admin)
+### example
+
+* [csv-tool](https://github.com/tansen87/csv-tool)
+
+### thanks
+
+* [PPX](https://github.com/pangao1990/PPX)
+* [vue-relaxed-admin](https://github.com/shoppingzh/vue-relaxed-admin)
