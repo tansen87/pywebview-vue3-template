@@ -16,3 +16,4 @@ src_py/spec/*
 *.sln
 *.sw?
 **/*__pycache__/
+/build/
